@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ALC Phase 1</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="logo_label">Welcome To ALC 4.0</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+    <string name="name">Leonard Mfuon</string>
+    <string name="track">Track :</string>
+    <string name="country">Country :</string>
+    <string name="email">Email :</string>
+    <string name="phone">Phone Number :</string>
+    <string name="slack">Slack Name :</string>
+    <string name="my_profile_title">My Profile</string>
+    <string name="country_name">Kenya</string>
+    <string name="email_address">mfolee@gmail.com</string>
+    <string name="phone_number">0724814117</string>
+    <string name="slack_handle">\@mfuonLeonard</string>
+</resources>
