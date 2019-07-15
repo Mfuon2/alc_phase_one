@@ -19,11 +19,7 @@ class AboutAlcActivity : AppCompatActivity() {
         setContentView(R.layout.activity_about_alc)
 
         about_alc_web.webViewClient = SSLTolerentWebViewClient()
-        Log.wtf("MY CLASS","************** before")
-
         about_alc_web.loadUrl("https://andela.com/alc/")
-        Log.wtf("MY CLASS","************** before")
-
         about_alc_back.setOnClickListener {
             backToMain()
         }
