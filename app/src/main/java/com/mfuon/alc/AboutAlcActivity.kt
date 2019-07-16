@@ -32,7 +32,6 @@ class AboutAlcActivity : AppCompatActivity() {
     }
 
     private fun backToMain() {
-
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
         finish()
@@ -40,11 +39,9 @@ class AboutAlcActivity : AppCompatActivity() {
     }
 
     private inner class SSLTolerentWebViewClient : WebViewClient() {
-
         override fun onReceivedSslError(view: WebView, handler: SslErrorHandler, error: SslError) {
-            handler.proceed() // Ignore SSL certificate errors
+            handler.proceed()
         }
-
     }
 }
 
